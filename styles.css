@@ -1,0 +1,82 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+* {
+  font-family: Montserrat, Helvetica, Times, serif;
+}
+
+.container-fluid-main {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 950px;
+  min-width: 300px;
+}
+
+img#picture {
+  border-radius: 10%;
+  width: 40vw;
+  min-width: 200px;
+  max-width: 300px;
+}
+
+@media (max-width: 410px) {
+  h3 {
+    font-size: 1rem;
+  }
+}
+
+.lines {
+  overflow: hidden;
+  text-align: center;
+}
+.lines:before,
+.lines:after {
+  background-color: #000;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
+}
+.lines:before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+.lines:after {
+  left: 0.5em;
+  margin-right: -50%;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
