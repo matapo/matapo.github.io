@@ -19,7 +19,7 @@ img#picture {
 }
 
 @media (max-width: 410px) {
-  h3 {
+  .name-text {
     font-size: 1rem;
   }
 }
